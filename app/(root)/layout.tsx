@@ -8,7 +8,8 @@ import LeftSidebar from "@/components/shared/LeftSidebar";
 import RightSidebar from "@/components/shared/RightSidebar";
 import Bottombar from "@/components/shared/Bottombar";
 
-
+let a = 1, b = 5;
+const testing = (a + b);
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
