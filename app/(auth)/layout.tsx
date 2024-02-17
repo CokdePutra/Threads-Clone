@@ -2,13 +2,12 @@ import React from "react";
 import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs"
 import { Inter } from "next/font/google"
-
 import '../globals.css';
 
-// export const metadata = {
-//     title: "Threads",
-//     description: "A Next.js 13 Meta Threads Application"
-// }
+export const metadata = {
+    title: "Threads",
+    description: "A Next.js 13 Meta Threads Application"
+}
 
 const inter = Inter({ subsets: ["latin"] })
 
